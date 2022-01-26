@@ -70,7 +70,7 @@ import './App.css';
      event.preventDefault();
      const newUser ={
        name: user,
-       age:`età:${age}`
+       age:`età attuale:${age}`
      }
      addDoc(collection(db,"users"),newUser)
      console.log(newUser)
